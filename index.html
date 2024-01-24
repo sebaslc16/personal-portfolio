@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio | Sebastian Londoño</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="images/logo4.jfif">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="#">About</a></li>
+            <li id="link2" class="link"><a href="#">Skills</a></li>
+            <li id="link3" class="link"><a href="#">Projects</a></li>
+            <li id="link4" class="link"><a href="#">Contact</a></li>
+        </ul>
+        <button onclick="changeLanguage('es')" class="btn">ES</button>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Portfolio</h4>
+            <H1>Hey, <span>I'm Sebastian Londoño</span></H1>
+            <p>
+                Software developer. I am passionate about the world of technology
+                and being able to create creative solutions.
+            </p>
+        </div>
+        <div class="image">
+            <img src="images/header.png">
+        </div>
+    </header>
+
+    <br>
+
+    <header class="container about">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h2>ABOUT ME</h2>
+            <p>
+                I'm an Information Systems Technologist and Software developer from Colombia with more than 2 years of
+                experience. I am passionate about video games, music and traveling around the world and I'm always
+                curious to learn more when it comes to new
+                technologies and creative coding.
+            </p>
+            <button class="btn-cv"><a href="assets/CV.pdf" download="CV.pdf" style="color: aliceblue;">CV</a></button>
+        </div>
+        <div class="image-me">
+            <img src="images/me.jpeg">
+        </div>
+    </header>
+
+    <section class="container skills">
+        <h2 class="header">Skills and Lenguages</h2>
+        <div class="features">
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+                    </i> </span>
+                <h4>Java</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+                    </i> </span>
+                <h4>Springboot</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                    </i> </span>
+                <h4>HTML5</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+                    </i> </span>
+                <h4>CSS3</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black">
+                    </i> </span>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+                    </i> </span>
+                <h4>TypeScript</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+                    </i> </span>
+                <h4>Angular</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+                    </i> </span>
+                <h4>Bootstrap</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+                    </i> </span>
+                <h4>Flutter</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+                    </i> </span>
+                <h4>NodeJs</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+                    </i> </span>
+                <h4>PostgreSQL</h4>
+            </div>
+            <div class="card">
+                <span> <i><img
+                            src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+                    </i> </span>
+                <h4>MySQL</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="container">
+        <h2 class="header">PROJECTS</h2>
+        <p class="sub-header">
+            Our pricing plans come with various membership tiers, each tailored to cater to different projects and
+            class+ code types.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Basic Plan</h4>
+                    <h3>0$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Smart coding plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Join Now</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Gold Plan</h4>
+                    <h3>10$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Pro codes
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Smart coding plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Join Now</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Diamond Plan</h4>
+                    <h3>100$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Elite Classes & Courses
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Pro codes
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Personal Coaching
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Smart coding plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Join Now</button>
+            </div>
+        </div>
+    </section> -->
+
+    <br><br>
+
+    <section class="container contact">
+        <h2 class="header">Contact Me</h2>
+        <div class="features">
+            <a href="mailto:sebaslc199916@gmail.com" target="_blank">
+                <div class="card">
+                    <span>
+                        <i>
+                            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                                alt="mail">
+                        </i>
+                    </span>
+                    <h4>Gmail</h4>
+                </div>
+            </a>
+            <a href="https://linkedin.com/in/sebaslc16/" target="_blank">
+                <div class="card">
+                    <span>
+                        <i>
+                            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                                alt="linkedin">
+                        </i>
+                    </span>
+                    <h4>Linkedin</h4>
+                </div>
+            </a>
+            <a href="https://github.com/sebaslc16/" target="_blank">
+                <div class="card">
+                    <span>
+                        <i>
+                            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                                alt="git">
+                        </i>
+                    </span>
+                    <h4>GitHub</h4>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100009004013953" target="_blank">
+                <div class="card">
+                    <span>
+                        <i>
+                            <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
+                                alt="git">
+                        </i>
+                    </span>
+                    <h4>Facebook</h4>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
